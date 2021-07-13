@@ -114,10 +114,11 @@ object FileMerger {
   }
 
   def makeMergeBatches(fileSizesMap: scala.collection.immutable.Map[String, Long], maxTargetFileSize: Long): ListBuffer[ListBuffer[String]] = {
-    val smallerFiles = fileSizesMap.filter(_._2 < maxTargetFileSize)
+    //val sortedFileSizes = ListMap(fileSizesMap.toSeq.sortBy(_._2.toInt):_*).toMap
+    val sortedFileSizes = fileSizesMap.toSeq.sortBy(_._2)
     val groupedFiles = ListBuffer[ListBuffer[String]]()
     groupedFiles += ListBuffer[String]()
-    for (aFile <- smallerFiles) {
+    for (aFile <- sortedFileSizes) {
       val lastBatch = groupedFiles.last
       if ((sizeOfThisBatch(lastBatch) + aFile._2) < maxTargetFileSize) {
         lastBatch += aFile._1 + "|" + aFile._2.toString
