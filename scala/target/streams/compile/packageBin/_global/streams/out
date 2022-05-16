@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/AEdapa/Personal/justhackit_github/spark-utils/target/scala-2.12/spark-utils_2.12_3.0.1_0.7.0_1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/AEdapa/Personal/justhackit_github/spark-utils/target/scala-2.12/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sparkutils[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/AEdapa/Personal/justhackit_github/spark-utils/target/scala-2.12/classes/com/sparkutils[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sparkutils/io[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/AEdapa/Personal/justhackit_github/spark-utils/target/scala-2.12/classes/com/sparkutils/io[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sparkutils/io/FileMerger$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/AEdapa/Personal/justhackit_github/spark-utils/target/scala-2.12/classes/com/sparkutils/io/FileMerger$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sparkutils/io/FileMerger.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/AEdapa/Personal/justhackit_github/spark-utils/target/scala-2.12/classes/com/sparkutils/io/FileMerger.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

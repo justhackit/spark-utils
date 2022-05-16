@@ -1,0 +1,4 @@
+[debug] [scala-build] Classpath dependencies List()
+[debug] [scala-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'scala-build' to '/Users/AEdapa/Personal/justhackit_github/spark-utils/scala/project/.bloop/scala-build.json'
+[success] Generated .bloop/scala-build.json
